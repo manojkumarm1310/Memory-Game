@@ -1,0 +1,58 @@
+body
+{
+    text-align: center;
+    background-color: rgb(107, 70, 70);
+}
+.title
+{
+    margin: 0;
+    font-size: 4rem;
+}
+h1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 3rem;
+}
+.game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+.container
+{
+    margin: auto;
+    width:100%;   
+}
+button
+{
+    display: inline-block;
+    width:200px;
+    height: 200px;
+    border-radius: 30px;
+    margin: 30px;
+    border: 10px solid black;
+}
+.g
+{
+    background-color: green;
+}
+.r{
+    background-color: red;
+}
+.w{
+    background-color: white;
+}
+.b
+{
+    background-color: blue;
+}
+.p
+{
+    background-color: purple;
+}.o
+{
+    background-color: orange;
+}
+.pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
