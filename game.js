@@ -20,7 +20,21 @@ $("button").click(function()
     animatePress(userChosenColour);
     checkAnswer(userClickedPattern.length-1);
 });
+$(".restart").click(function()
+{
+  $("h1").text("Game Restarted...Game will be started in 3 seconds!");
+  startOver();
+  setTimeout(()=>
+  {
+    if (!started) {
+      $("h1").text("Level " + level);
+      nextSequence();
+      started = true;
+    }
 
+  },3000);
+    
+})
 
 function checkAnswer(currentlevel)
 {
@@ -73,9 +87,6 @@ function animatePress(currentColour)
     $("#" + currentColour).removeClass("pressed");
   }, 100);
 }
-
-
-
 
 
 function startOver()
