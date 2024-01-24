@@ -22,7 +22,7 @@ $("button").click(function()
 });
 $(".restart").click(function()
 {
-  $("h1").text("Game Restarted...Game will be started in 3 seconds!");
+  $("h1").text("Game will be started in 3 seconds!");
   startOver();
   setTimeout(()=>
   {

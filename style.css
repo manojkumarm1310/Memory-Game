@@ -125,7 +125,10 @@ button
     }
 
     @media screen and (max-width:440px) {
- 
+        h2
+        {
+            font-size: 10px;
+        }
         button
         {
             display: inline-block;
